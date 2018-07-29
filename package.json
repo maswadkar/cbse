@@ -1,0 +1,29 @@
+{
+  "name": "cbse",
+  "version": "1.0.0",
+  "description": "creation of CBSE portal for X and XII students",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maswadkar/cbse.git"
+  },
+  "keywords": [
+    "cbse",
+    "students",
+    "portal",
+    "education"
+  ],
+  "author": "maswadkar",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/maswadkar/cbse/issues"
+  },
+  "homepage": "https://github.com/maswadkar/cbse#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
