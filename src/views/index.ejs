@@ -14,6 +14,8 @@
 		<link href="css/styles.css" rel="stylesheet">
 	</head>
 	<body>
+	<script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+
 <header class="navbar navbar-bright navbar-fixed-top" role="banner">
   <div class="container">
     <div class="navbar-header">
@@ -27,18 +29,9 @@
     </div>
     <nav class="collapse navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
-        <li>
-          <a href="#">Category</a>
-        </li>
-        <li>
-          <a href="#">Category</a>
-        </li>
-        <li>
-          <a href="#">Category</a>
-        </li>
-        <li>
-          <a href="#">Category</a>
-        </li>
+	<%for(let i=0; i<nav.length; i++) {%>
+	<a nav[i]></a>
+	<%}%>
       </ul>
       <ul class="nav navbar-right navbar-nav">
         <li class="dropdown">

@@ -14,7 +14,9 @@ app.set('view engine', 'ejs');
 const port = 8002
 
 app.get('/',function(req,res){
-	res.render('index',{list:['a','b'],title:'Library'})
+	res.render('index',
+			{nav:['XXX', 'YYYY'],
+			title:'Library'})
 });
 
 app.listen(port,function(){
