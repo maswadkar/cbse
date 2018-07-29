@@ -30,9 +30,11 @@
     </div>
     <nav class="collapse navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
-	<li>
-		<a href='#'>CATAGORY </a>
-	</li>
+          <%for (i=0; i<nav.length; i++) {%>
+          <li>
+            <a href="<%=nav[i].link%>"> <%=nav[i].title%></a>      
+    	  </li>
+        <%}%>
       </ul>
       <ul class="nav navbar-right navbar-nav">
         <li class="dropdown">

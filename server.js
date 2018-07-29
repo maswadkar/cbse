@@ -15,7 +15,8 @@ const port = 8002
 
 app.get('/',function(req,res){
 	res.render('index',
-			{nav:['XXX', 'YYYY'],
+			{nav:[{link:'/books',title:'books'},
+			{link:'/author',title:'author'}],
 			title:'Library'})
 });
 
